@@ -1,0 +1,30 @@
+{
+  "name": "steller",
+  "version": "2.0.0",
+  "description": "An elegant responsive bootstrap 5.x theme.",
+  "main": "gulpfile.mjs",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "watch": "gulp watch",
+    "start": "gulp"
+  },
+  "author": "DevCRUD, caroltorchia",
+  "license": "MIT",
+  "devDependencies": {
+    "@sequencemedia/gulp-clean-css": "^1.0.115",
+    "@sequencemedia/gulp-rename": "^1.0.119",
+    "browser-sync": "^3.0.2",
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-jpeg-recompress": "^7.1.0",
+    "imagemin-pngquant": "^10.0.0",
+    "sass": "^1.77.8",
+    "vinyl-paths": "^5.0.0"
+  }
+}
