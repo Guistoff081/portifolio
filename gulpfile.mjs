@@ -22,7 +22,7 @@ import vinylPaths from 'vinyl-paths';
 // Paths
 var paths = {
     root: {
-        www: './public_html'
+        www: './public_html',
     },
     src: {
         root: 'public_html/assets',
@@ -111,5 +111,8 @@ task('watch', function () {
     watch(paths.src.js).on('change', bs.reload);
     watch(paths.src.html).on('change', bs.reload);
 });
+
+task('deploy', function () {
+})
 
 task('default', series('build', 'watch'));
